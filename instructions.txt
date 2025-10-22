@@ -1,0 +1,53 @@
+==============================
+Employee and Shift Management
+==============================
+
+Domain
+--------
+Workforce / HR Management Systems
+
+Problem Statement
+------------------
+Organizations need reliable systems to manage their employees’ work schedules.
+Manual management often causes errors like double-booking employees, unbalanced shifts, or lack of visibility.
+This project will create an Employee and Shift Management System that:
+Creates employees with unique details (ID, name, role).
+Creates shifts (morning, evening, night) with capacity limits.
+Assigns employees to shifts while ensuring no double-booking.
+Provides supervisors with tools to view schedules, track shift coverage, and generate reports.
+Prevents invalid assignments (e.g., assigning the same employee to overlapping shifts).
+
+Students will learn:
+-------------- 
+Object-Oriented Programming (Classes, Objects, Relationships)
+Data Structures (dict, list) for storing schedules
+Exception Handling with custom exceptions
+Functions for validation & reporting
+Reports and Summaries (per employee & per shift)
+Modular Code Organization
+Menu-driven Programs
+
+Step-by-Step Workflow for Students:
+-----------------------------------
+1.Employee Class (employee.py)
+   -Stores ID, name, role.
+   -Provides readable representation.
+   -Shift Class (shift.py)
+   -Represents a work shift (name, capacity, list of employees).
+   -Assign employees while respecting capacity.
+2. ShiftManager (shift_manager.py)
+   -Handles multiple shifts and employees.
+   -Prevents double-booking and invalid assignments.
+3. Report Module (report.py)
+   -Generates employee-wise and shift-wise reports.
+4. Custom Exceptions (exceptions.py)
+   - DoubleBookingError, ShiftCapacityError, EmployeeNotFoundError.
+5. Main Program (main.py)
+   Menu-driven system to tie everything together.
+
+Student Breakdown of Tasks:
+----------------------------
+Student A: Implement Employee + Shift.
+Student B: Implement ShiftManager + Exceptions.
+Student C: Implement Reporting + Main menu.
+
