@@ -1,1 +1,1 @@
-# EmployeeShiftManagement
+# Employee Shift Management project
